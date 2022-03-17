@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    display:flex
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.h-links {
+    display: flex;
+    gap: 25px;
+}
+
+.h-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 24px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.hero-signup-button,
+.cta-signup-button {
+    background-color: #3882F6;
+}
+
+button {
+    border-radius: 6px;
+    padding: 4px 16px;
+    color: white;
+    font-size: 24px;
+}
+
+.hero-signup-button {
+    border-color: #1f2937
+}
+
+.hero {
+    background-color: #1f2937;
+    color: white;
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-left {
+    width: 600px;
+}
+
+.placeholder {
+    width: 700px;
+    height: 300px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.hero-subtext {
+    padding-bottom: 25px;
+}
+
+.info {
+    padding-top: 75px;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 275px 50px 275px;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.testimonial {
+    padding: 100px 400px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.call-to-action {
+    margin: 50px 300px;
+    border-radius: 6px;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-signup-button {
+    border-color: white;
+}
+
+.cta-text {
+    color: white;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
