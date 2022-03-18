@@ -3,9 +3,17 @@
     padding: 0;
 }
 
-img {
+.buscemi {
     border-radius: 25px;
     
+}
+
+.amogus {
+    width: 250px;
+}
+
+.sw {
+    border-radius: 6px;;
 }
 
 a {
@@ -31,11 +39,14 @@ button {
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+
 /* HEADER */
 header {
     background-color: #1F2937;
 
 }
+
 
 /* NAVBAR */
 .logo {
@@ -92,39 +103,115 @@ header {
     font-style: italic;
 }
 
+
 /* MAIN */
+.main {
+    background-color: #FFFFFF;
+}
 main .title {
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
     padding-top: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-main .container {
+.salesman {
+    display: flex;
+    padding: 1em 8em;
+    justify-content: space-around;
+}
+
+.wordle {
+    width: 50%;
+    padding: 1em;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.wordle-row-1,
+.wordle-row-2,
+.wordle-row-3,
+.wordle-row-4,
+.wordle-row-5 {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    font-size: 64px;
+    font-family: Helvitca, Arial, sans-serif;
+}
+
+.wordle-row-1-letter1,
+.wordle-row-1-letter2,
+.wordle-row-1-letter3,
+.wordle-row-1-letter4,
+.wordle-row-1-letter5,
+.wordle-row-2-letter2,
+.wordle-row-2-letter4,
+.wordle-row-2-letter5,
+.wordle-row-3-letter1,
+.wordle-row-3-letter4,
+.wordle-row-4-letter1,
+.wordle-row-4-letter2,
+.wordle-row-4-letter4 {
+    border: 3px solid #878a8c;
+    height: 80px;
+    width: 80px;
+    align-items: center;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 8em;
-    padding: 2em 10em;
+    background-color: #878a8c;
 }
 
-.card .box {
-    width: 200px;
-    height: 200px;
-    border: 4px solid #1F2937;
-    border-radius: 6px;
+.wordle-row-2-letter1,
+.wordle-row-2-letter3,
+.wordle-row-3-letter2,
+.wordle-row-3-letter3,
+.wordle-row-3-letter5,
+.wordle-row-4-letter3 {
+    border: 3px solid #878a8c;
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #c9b458;
 }
 
-.card .text {
-    width: 200px;
-    padding-top: 10px;
-    text-align: center;
+.wordle-row-4-letter5,
+.wordle-row-5-letter1,
+.wordle-row-5-letter2,
+.wordle-row-5-letter3,
+.wordle-row-5-letter4,
+.wordle-row-5-letter5 {
+    border: 3px solid #878a8c;
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #6aaa64;
 }
+
+.badboi {
+    display: flex;
+    width: 50%;
+
+
+}
+.badboi-img {
+    width: 80%;
+    flex-shrink: 0;
+}
+
 
 /* QUOTE */
 .quote {
-    padding:8em 20em;
+    padding:4em 20em;
     background-color: #e5e7eb;
 }
 
@@ -145,11 +232,11 @@ main .container {
 .signup {
     display: flex;
     justify-content: center;
-    padding: 5em;
+    padding: 4em;
 }
 
 .signup .container {
-    background-color: #3882f6;
+    background-color: #1F2937;
     padding: 3em 10em;
     display: flex;
     gap: 10em;
@@ -168,9 +255,11 @@ main .container {
 }
 
 .signup button {
-    border-color: #F9FAF8;
+    border-color: black;
     font-size: 24px;
 }
+
+
 /* FOOTER */
 footer {
     background-color: #1F2937;
