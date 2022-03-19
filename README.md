@@ -1,4 +1,4 @@
-Live Preview: https://cojar.github.io/LandingPage/  
+Live Preview: https://codyjardine.github.io/LandingPage/  
 
 
 Image Credits:  
