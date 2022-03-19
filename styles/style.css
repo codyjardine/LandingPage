@@ -1,135 +1,135 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .buscemi {
-    border-radius: 25px;
+  border-radius: 25px;
     
 }
 
 .amogus {
-    width: 250px;
+  width: 250px;
 }
 
 .sw {
-    border-radius: 6px;;
+  border-radius: 6px;;
 }
 
 a {
-    text-decoration: none;
-    color: #F9FAF8
+  text-decoration: none;
+  color: #F9FAF8
 
 }
 
 ul {
-    list-style-type: none;
-    font-size: 24;
+  list-style-type: none;
+  font-size: 24;
 }
 
 button {
-    background-color: #3882f6;
-    border-radius: 5px;
-    border-color: black;
-    padding: 8px 30px;
-    color: #F9FAF8;
-    font-weight: bold;
+  background-color: #3882f6;
+  border-radius: 5px;
+  border-color: black;
+  padding: 8px 30px;
+  color: #F9FAF8;
+  font-weight: bold;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 
 /* HEADER */
 header {
-    background-color: #1F2937;
+  background-color: #1F2937;
 
 }
 
 
 /* NAVBAR */
 .logo {
-    font-size: 24px;
-    color: #F9FAF8;
+  font-size: 24px;
+  color: #F9FAF8;
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em 8em;
-    box-shadow: 0 0 8px rgba(0,0,0,.4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 8em;
+  box-shadow: 0 0 8px rgba(0,0,0,.4);
 }
 
 .nav ul {
-    display: flex;
-    gap: 2em;
+  display: flex;
+  gap: 2em;
 }
 
 /* HERO */
 .hero {
-    display: flex;
-    color:#F9FAF8;
-    gap: 2em;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-basis: 60%;
-    padding: 1em 8em;
+  display: flex;
+  color:#F9FAF8;
+  gap: 2em;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis: 60%;
+  padding: 1em 8em;
 }
 
 .hero .left {
-    gap: 20px;
+  gap: 20px;
 }
 
 .lit {
-    color: orange;
-    font-size: 96px;
+  color: orange;
+  font-size: 96px;
 }
 
 .hero .right {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .hero .title {
-    font-size: 72px;
-    font-weight: bolder;
-    padding-bottom: 10px;;
+  font-size: 72px;
+  font-weight: bolder;
+  padding-bottom: 10px;;
 }
 
 .hero .nice {
-    font-size: 24px;
-    font-weight: bolder;
-    font-style: italic;
+  font-size: 24px;
+  font-weight: bolder;
+  font-style: italic;
 }
 
 
 /* MAIN */
 .main {
-    background-color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 main .title {
-    text-align: center;
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-    padding-top: 1em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  padding-top: 1em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .salesman {
-    display: flex;
-    padding: 1em 8em;
-    justify-content: space-around;
+  display: flex;
+  padding: 1em 8em;
+  justify-content: space-around;
 }
 
 .wordle {
-    width: 50%;
-    padding: 1em;
-    color: white;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  width: 50%;
+  padding: 1em;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
 }
 
@@ -138,11 +138,11 @@ main .title {
 .wordle-row-3,
 .wordle-row-4,
 .wordle-row-5 {
-    display: flex;
-    gap: 20px;
-    padding-bottom: 20px;
-    font-size: 64px;
-    font-family: Helvitca, Arial, sans-serif;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+  font-size: 64px;
+  font-family: Helvitca, Arial, sans-serif;
 }
 
 .wordle-row-1-letter1,
@@ -158,13 +158,13 @@ main .title {
 .wordle-row-4-letter1,
 .wordle-row-4-letter2,
 .wordle-row-4-letter4 {
-    border: 3px solid #878a8c;
-    height: 80px;
-    width: 80px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    background-color: #878a8c;
+  border: 3px solid #878a8c;
+  height: 80px;
+  width: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #878a8c;
 }
 
 .wordle-row-2-letter1,
@@ -173,13 +173,13 @@ main .title {
 .wordle-row-3-letter3,
 .wordle-row-3-letter5,
 .wordle-row-4-letter3 {
-    border: 3px solid #878a8c;
-    height: 80px;
-    width: 80px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    background-color: #c9b458;
+  border: 3px solid #878a8c;
+  height: 80px;
+  width: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #c9b458;
 }
 
 .wordle-row-4-letter5,
@@ -188,85 +188,84 @@ main .title {
 .wordle-row-5-letter3,
 .wordle-row-5-letter4,
 .wordle-row-5-letter5 {
-    border: 3px solid #878a8c;
-    height: 80px;
-    width: 80px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    background-color: #6aaa64;
+  border: 3px solid #878a8c;
+  height: 80px;
+  width: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #6aaa64;
 }
 
 .badboi {
-    display: flex;
-    width: 50%;
-
-
+  display: flex;
+  width: 50%;
 }
+
 .badboi-img {
-    width: 80%;
-    flex-shrink: 0;
+  width: 80%;
+  flex-shrink: 0;
 }
 
 
 /* QUOTE */
 .quote {
-    padding:4em 20em;
-    background-color: #e5e7eb;
+  padding:4em 20em;
+  background-color: #e5e7eb;
 }
 
 .quote .text {
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
 }
 
 .quote .author {
-    text-align: right;
-    font-size: 24px;
-    font-weight: bolder;
+  text-align: right;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 
 /* SIGN UP */
 .signup {
-    display: flex;
-    justify-content: center;
-    padding: 4em;
+  display: flex;
+  justify-content: center;
+  padding: 4em;
 }
 
 .signup .container {
-    background-color: #1F2937;
-    padding: 3em 10em;
-    display: flex;
-    gap: 10em;
-    border-radius: 6px;
-    color: #F9FAF8;
-    align-items: center;
+  background-color: #1F2937;
+  padding: 3em 10em;
+  display: flex;
+  gap: 10em;
+  border-radius: 6px;
+  color: #F9FAF8;
+  align-items: center;
 }
 
 .signup strong {
-    font-size: 24px;
-    padding-bottom: 5px;
+  font-size: 24px;
+  padding-bottom: 5px;
 }
 
 .signup .subtext {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .signup button {
-    border-color: black;
-    font-size: 24px;
+  border-color: black;
+  font-size: 24px;
 }
 
 
 /* FOOTER */
 footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
-    font-size: 24px;
-    text-align: center;
-    padding: 1em 0;
-    display: flex;
-    flex-direction: column;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  font-size: 24px;
+  text-align: center;
+  padding: 1em 0;
+  display: flex;
+  flex-direction: column;
 }
